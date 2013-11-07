@@ -12,7 +12,14 @@
 
 <body>  
 
+
+
     <div id='menu'>
+	
+	<section>
+	<div id="navigation1">
+	<nav>
+	<ul id="sitenav">
 
         <a href='/'>Home</a>
 
