@@ -1,0 +1,121 @@
+Body
+{
+width: 900px;
+background-color:#B0C4DE;
+align: center;
+margin: 0 auto;
+}
+
+.center
+{
+margin:auto;
+width:300px;
+background-color:#B0C4DE;
+}
+
+
+
+a:hover,a:active
+{
+background-color:#F0F8FF;
+}
+
+#everything
+{
+width: 900px; 
+margin: 0 auto; 
+background-color:white;
+}
+
+#header {
+  height: 100px;
+  width: 900px;
+  margin: 0 auto;
+  text-indent: -5000px;
+  background-image: url(images/banner.jpg);
+  background-repeat: no-repeat;
+  background-color:white;
+}
+
+ul#sitenav
+{
+list-style-type: none;
+margin: 0 auto;
+border: 0;
+padding: 0;
+text-align: center;
+word-spacing:30px;
+
+}
+
+ul#sitenav li {
+  display: inline;
+  font-size: 30px;
+}
+
+#navigation1
+{
+width: 900px;
+margin: 0 auto;
+}
+
+#navigation1 ul li a
+{
+text-decoration:none;
+margin: 5px;
+}
+
+#navigation1 ul li a:link,
+#navigation1 ul li a:visited  
+{
+color: black;
+}
+
+#navigation1 ul li a:hover
+{
+color: red;
+text-decoration:underline;
+}
+
+
+
+#content
+{
+
+width: 900px;
+margin: 0 auto;
+height: 600px;
+border: 0;
+padding: 0;
+text-align: left;
+}
+
+#footer
+{
+color: grey;
+width: 900px;
+margin: 0 auto;
+font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

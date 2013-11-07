@@ -17,9 +17,11 @@
 # Load app configs
 	require APP_PATH."/config/config.php";
 	require APP_PATH."/config/feature_flags.php";
-	  
+	require APP_PATH."/hypertext.php";
+	
 # Bootstrap
 	require CORE_PATH."bootstrap.php";
+
 
 # Routing
 # You can use regexp, for example '/users/([A-Za-z0-9-\s\@]+)' => '/members/$0',
@@ -32,5 +34,7 @@
     
 # Display environment details
 	require CORE_PATH."environment-details.php";
+	
+		require APP_PATH."/footer.php";
 	
 ?>

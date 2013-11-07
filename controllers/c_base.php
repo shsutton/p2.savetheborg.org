@@ -1,5 +1,6 @@
 <?php
 
+
 class base_controller {
 	
 	public $user;
@@ -24,6 +25,6 @@ class base_controller {
 			
 	}
 	
-} # eoc
+} 
 
 

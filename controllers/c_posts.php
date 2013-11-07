@@ -21,6 +21,36 @@ class posts_controller extends base_controller {
 
     }
 	
+
+	function idea() {
+		$random_number = rand(1,10);
+
+
+		if ($random_number == 1){
+			echo 'When in Rome, do as the Romans.';
+		}else if ($random_number == 2){
+			echo 'The squeaky wheel gets the grease.';
+		}else if ($random_number == 3){
+			echo 'No man is an island.';
+		}else if ($random_number == 4){
+			echo 'Fortune favors the bold.';
+		}else if ($random_number == 5){
+			echo 'Discretion is the greater part of valor.';
+		}else if ($random_number == 6){
+			echo 'Never look a gift horse in the mouth.';
+		}else if ($random_number == 7){
+			echo 'If it ain\'t broke, don\'t fix it.';
+		}else if ($random_number == 8){
+			echo 'Absence makes the heart grow fonder.';
+		}else if ($random_number == 9){
+			echo 'Don\'t count your chickens before they hatch.';
+		}else{
+			echo 'If you want something done right, you have to do it yourself.';
+		}
+
+	}
+
+	
 	public function users() {
 
 		# Set up the View
