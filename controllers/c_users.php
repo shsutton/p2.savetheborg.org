@@ -135,21 +135,19 @@ public function profile($user_name ) {
 
 }
 
-	public function profile() {
-
-		# If user is blank, they're not logged in; redirect them to the login page
-			if(!$this->user) {
-				Router::redirect('/users/login');
-			}
-
-		# If they weren't redirected away, continue:
-
-		# Setup view
-			$this->template->content = View::instance('v_users_profile');
-			$this->template->title   = "Profile of".$this->user->first_name;
-
-		# Render template
-			echo $this->template;
-	}
+#	public function profile() {
+#
+#		# If user is blank, they're not logged in; redirect them to the login page
+#			if(!$this->user) {
+#				Router::redirect('/users/login');
+#			}
+#
+#	# Setup view
+#			$this->template->content = View::instance('v_users_profile');
+#			$this->template->title   = "Profile of".$this->user->first_name;
+#
+#		# Render template
+#			echo $this->template;
+#	}
 
 } # end of the class
